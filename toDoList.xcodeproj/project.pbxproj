@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25727E2D22C2232C0026F2F9 /* ViewControllerDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25727E2C22C2232C0026F2F9 /* ViewControllerDraw.swift */; };
+		25727E2F22C23AC10026F2F9 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25727E2E22C23AC10026F2F9 /* Canvas.swift */; };
+		25727E3122C254AF0026F2F9 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25727E3022C254AF0026F2F9 /* Line.swift */; };
+		257CD77B22BE379C004E7545 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257CD77A22BE379C004E7545 /* ViewControllerTwo.swift */; };
+		257CD78122BE4900004E7545 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257CD78022BE4900004E7545 /* TodoCell.swift */; };
+		25A5014422C31C9400C0437B /* ViewControllerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A5014322C31C9400C0437B /* ViewControllerGame.swift */; };
+		25A5014622C32C4900C0437B /* roundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A5014522C32C4900C0437B /* roundButton.swift */; };
+		25BBD79A22C5DD50003F7FC4 /* Sneaker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25BBD79922C5DD4F003F7FC4 /* Sneaker.mp3 */; };
+		25BBD79C22C5EF9C003F7FC4 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BBD79B22C5EF9C003F7FC4 /* MusicPlayer.swift */; };
+		25BBD7A022C61E0B003F7FC4 /* note@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25BBD79F22C61E0B003F7FC4 /* note@2x.png */; };
 		25FC025722BE2C4A0042D8E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC025622BE2C4A0042D8E0 /* AppDelegate.swift */; };
 		25FC025922BE2C4A0042D8E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC025822BE2C4A0042D8E0 /* ViewController.swift */; };
 		25FC025C22BE2C4A0042D8E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FC025A22BE2C4A0042D8E0 /* Main.storyboard */; };
 		25FC025F22BE2C4A0042D8E0 /* toDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25FC025D22BE2C4A0042D8E0 /* toDoList.xcdatamodeld */; };
 		25FC026122BE2C4B0042D8E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25FC026022BE2C4B0042D8E0 /* Assets.xcassets */; };
 		25FC026422BE2C4B0042D8E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FC026222BE2C4B0042D8E0 /* LaunchScreen.storyboard */; };
+		25FF3C3422BE8F250029F710 /* ViewControllerCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FF3C3322BE8F250029F710 /* ViewControllerCal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25727E2C22C2232C0026F2F9 /* ViewControllerDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDraw.swift; sourceTree = "<group>"; };
+		25727E2E22C23AC10026F2F9 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		25727E3022C254AF0026F2F9 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		257CD77A22BE379C004E7545 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		257CD78022BE4900004E7545 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
+		25A5014322C31C9400C0437B /* ViewControllerGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGame.swift; sourceTree = "<group>"; };
+		25A5014522C32C4900C0437B /* roundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundButton.swift; sourceTree = "<group>"; };
+		25BBD79922C5DD4F003F7FC4 /* Sneaker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sneaker.mp3; sourceTree = "<group>"; };
+		25BBD79B22C5EF9C003F7FC4 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		25BBD79F22C61E0B003F7FC4 /* note@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "note@2x.png"; path = "Assets.xcassets/note.imageset/note@2x.png"; sourceTree = "<group>"; };
 		25FC025322BE2C4A0042D8E0 /* toDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25FC025622BE2C4A0042D8E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25FC025822BE2C4A0042D8E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +45,7 @@
 		25FC026022BE2C4B0042D8E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25FC026322BE2C4B0042D8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25FC026522BE2C4B0042D8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FF3C3322BE8F250029F710 /* ViewControllerCal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +80,21 @@
 			children = (
 				25FC025622BE2C4A0042D8E0 /* AppDelegate.swift */,
 				25FC025822BE2C4A0042D8E0 /* ViewController.swift */,
+				25BBD79B22C5EF9C003F7FC4 /* MusicPlayer.swift */,
+				257CD77A22BE379C004E7545 /* ViewControllerTwo.swift */,
+				257CD78022BE4900004E7545 /* TodoCell.swift */,
+				25FF3C3322BE8F250029F710 /* ViewControllerCal.swift */,
 				25FC025A22BE2C4A0042D8E0 /* Main.storyboard */,
+				25A5014522C32C4900C0437B /* roundButton.swift */,
+				25A5014322C31C9400C0437B /* ViewControllerGame.swift */,
+				25727E2C22C2232C0026F2F9 /* ViewControllerDraw.swift */,
+				25727E2E22C23AC10026F2F9 /* Canvas.swift */,
+				25727E3022C254AF0026F2F9 /* Line.swift */,
+				25BBD79922C5DD4F003F7FC4 /* Sneaker.mp3 */,
 				25FC026022BE2C4B0042D8E0 /* Assets.xcassets */,
 				25FC026222BE2C4B0042D8E0 /* LaunchScreen.storyboard */,
 				25FC026522BE2C4B0042D8E0 /* Info.plist */,
+				25BBD79F22C61E0B003F7FC4 /* note@2x.png */,
 				25FC025D22BE2C4A0042D8E0 /* toDoList.xcdatamodeld */,
 			);
 			path = toDoList;
@@ -99,6 +132,11 @@
 				TargetAttributes = {
 					25FC025222BE2C4A0042D8E0 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -128,6 +166,8 @@
 				25FC026422BE2C4B0042D8E0 /* LaunchScreen.storyboard in Resources */,
 				25FC026122BE2C4B0042D8E0 /* Assets.xcassets in Resources */,
 				25FC025C22BE2C4A0042D8E0 /* Main.storyboard in Resources */,
+				25BBD79A22C5DD50003F7FC4 /* Sneaker.mp3 in Resources */,
+				25BBD7A022C61E0B003F7FC4 /* note@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +178,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25BBD79C22C5EF9C003F7FC4 /* MusicPlayer.swift in Sources */,
+				25A5014422C31C9400C0437B /* ViewControllerGame.swift in Sources */,
 				25FC025922BE2C4A0042D8E0 /* ViewController.swift in Sources */,
+				25727E2D22C2232C0026F2F9 /* ViewControllerDraw.swift in Sources */,
+				25A5014622C32C4900C0437B /* roundButton.swift in Sources */,
 				25FC025F22BE2C4A0042D8E0 /* toDoList.xcdatamodeld in Sources */,
+				25727E2F22C23AC10026F2F9 /* Canvas.swift in Sources */,
 				25FC025722BE2C4A0042D8E0 /* AppDelegate.swift in Sources */,
+				257CD78122BE4900004E7545 /* TodoCell.swift in Sources */,
+				25727E3122C254AF0026F2F9 /* Line.swift in Sources */,
+				257CD77B22BE379C004E7545 /* ViewControllerTwo.swift in Sources */,
+				25FF3C3422BE8F250029F710 /* ViewControllerCal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

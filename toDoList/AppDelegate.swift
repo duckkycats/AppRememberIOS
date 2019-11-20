@@ -14,9 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        /*
+         ดึงเพลงจาก MusicPlayer.swift วางใน AppDelegate เพื่อเวลาเปิดแอปแล้วจะไดเริ่มเพลงที่หน้านี้เลย
+         ป้องกันใส่หน้า view controller อื่นเพราจะทำให้เปิดหน้าเดิมแล้วเพลงจะเล่นใหม่
+         ใส่ใน AppDelegate ป้องกันดีเพราะผู้ใช้ไม่สามารถเปิดหน้านี้ใหม่ได้
+         */
+        MusicHelper.sharedHelper.playBackgroundMusic() // Override point for customization after application launch.
         return true
     }
 
@@ -88,6 +92,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+    
 }
 
